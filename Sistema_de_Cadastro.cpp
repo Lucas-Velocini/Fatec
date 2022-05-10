@@ -16,7 +16,7 @@ int main ()
 	printf ("|  4 - Excluir                   |\n");
 	printf ("|  5 - Sair                      |\n");
 	printf ("*--------------------------------*\n\n");
-	printf ("OpÁ„o: ");
+	printf ("Op√ß√£o: ");
 	scanf ("%d", &op);
 	system("cls");
 	
@@ -28,13 +28,13 @@ int main ()
     		printf("---------Insira os dados---------\n");
     		printf("");
     		gets(debug);
-			printf("CÛdigo do cliente: ");
+			printf("C√≥digo do cliente: ");
     		gets(codigo);
     		printf("Nome: ");
     		gets(nome);
     		printf("CEP: ");
     		gets(CEP);
-    		printf("EndereÁo: ");
+    		printf("Endere√ßo: ");
     		gets(endereco);
     		printf("Bairro: ");
     		gets(bairro);
@@ -54,7 +54,7 @@ int main ()
 			printf ("|  4 - Excluir                   |\n");
 			printf ("|  5 - Sair                      |\n");
 			printf ("*--------------------------------*\n\n");
-			printf ("OpÁ„o: ");
+			printf ("Op√ß√£o: ");
 			scanf("%d", &terminar);
 			op = terminar;
 			system("cls");
@@ -62,15 +62,15 @@ int main ()
     	case 2:
     		printf("");
     		gets(debug);
-			printf("Digite o cÛdigo do cliente a ser consultado: ");
+			printf("Digite o c√≥digo do cliente a ser consultado: ");
     		gets(codigoCAE);
     		
     		if (strncmp (codigo,codigoCAE,20) == 0)
 			{
-				printf("CÛdigo do cliente: %s\n", codigo);
+				printf("C√≥digo do cliente: %s\n", codigo);
     			printf("Nome: %s\n", nome);
     			printf("CEP: %s\n", CEP);
-    			printf("EndereÁo: %s\n", endereco);
+    			printf("Endere√ßo: %s\n", endereco);
     			printf("Bairro: %s\n", bairro);
     			printf("Cidade: %s\n", cidade);
     			printf("Estado: %s\n", estado);
@@ -84,14 +84,14 @@ int main ()
 				printf ("|  4- Excluir                    |\n");
 				printf ("|  5- Sair                       |\n");
 				printf ("*--------------------------------*\n\n");
-				printf ("OpÁ„o: ");
+				printf ("Op√ß√£o: ");
 				scanf("%d", &terminar);
 				op = terminar;
 				system("cls");
 			}
 			else
 			{
-				printf("CÛdigo de cliente inv·lido!");
+				printf("C√≥digo de cliente inv√°lido!");
 				printf ("\n\n*-----Selecione o que deseja-----*\n");
 				printf ("|  1- Cadastrar                  |\n");
 				printf ("|  2- Consultar                  |\n");
@@ -99,7 +99,7 @@ int main ()
 				printf ("|  4- Excluir                    |\n");
 				printf ("|  5- Sair                       |\n");
 				printf ("*--------------------------------*\n\n");
-				printf ("OpÁ„o: ");
+				printf ("Op√ß√£o: ");
 				scanf("%d", &terminar);
 				op = terminar;
 				system("cls");
@@ -108,23 +108,23 @@ int main ()
     	case 3:
     		printf("");
     		gets(debug);
-			printf("Digite o cÛdigo do cliente a ser feita as alteraÁıes: ");
+			printf("Digite o c√≥digo do cliente a ser feita as altera√ß√µes: ");
     		gets(codigoCAE);
     		
     		if (strncmp (codigo,codigoCAE,20) == 0)
 			{
 				printf("*-------O que deseja alterar-------*\n");
-    			printf("|  1- CÛdigo do cliente            |\n");
+    			printf("|  1- C√≥digo do cliente            |\n");
     			printf("|  2- Nome                         |\n");
     			printf("|  3- CEP                          |\n");
-    			printf("|  4- EndereÁo                     |\n");
+    			printf("|  4- Endere√ßo                     |\n");
     			printf("|  5- Bairro                       |\n");
     			printf("|  6- Cidade                       |\n");
     			printf("|  7- Estado                       |\n");
     			printf("|  8- Telefone                     |\n");
     			printf("|  9- E-mail                       |\n");
     			printf("*-------====================-------*\n ");
-    			printf("\nOpÁ„o: ");
+    			printf("\nOp√ß√£o: ");
 				scanf("%d", &alt);
     		
     			switch (alt)
@@ -132,9 +132,9 @@ int main ()
     				case 1:
     					printf("");
     					gets(debug);
-						printf("Digite o novo cÛdigo do cliente: ");
+						printf("Digite o novo c√≥digo do cliente: ");
     					gets(codigo);
-    					printf("AlteraÁ„o concluida com sucesso!\n");
+    					printf("Altera√ß√£o concluida com sucesso!\n");
     				
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
@@ -143,7 +143,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -153,7 +153,7 @@ int main ()
     					gets(debug);
 						printf("Digite o novo nome:  ");
    						gets(nome);
-   						printf("AlteraÁ„o concluida com sucesso!\n");
+   						printf("Altera√ß√£o concluida com sucesso!\n");
     				
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
@@ -162,7 +162,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -172,7 +172,7 @@ int main ()
     					gets(debug);
 						printf("Digite o novo CEP: ");
    						gets(CEP);
-   						printf("AlteraÁ„o concluida com sucesso!\n");
+   						printf("Altera√ß√£o concluida com sucesso!\n");
     				
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
@@ -181,7 +181,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -189,9 +189,9 @@ int main ()
    					case 4:
    						printf("");
     					gets(debug);
-						printf("Digite o novo endereÁo: ");
+						printf("Digite o novo endere√ßo: ");
    						gets(endereco);
-   						printf("AlteraÁ„o concluida com sucesso!\n");
+   						printf("Altera√ß√£o concluida com sucesso!\n");
     				
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
@@ -200,7 +200,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -210,7 +210,7 @@ int main ()
     					gets(debug);
 						printf("Digite o novo bairro: ");
    						gets(bairro);
-   						printf("AlteraÁ„o concluida com sucesso!\n");
+   						printf("Altera√ß√£o concluida com sucesso!\n");
     				
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
@@ -219,7 +219,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -229,7 +229,7 @@ int main ()
     					gets(debug);
 						printf("Digite a nova cidade: ");
     					gets(cidade);
-    					printf("AlteraÁ„o concluida com sucesso!\n");
+    					printf("Altera√ß√£o concluida com sucesso!\n");
     				
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
@@ -238,7 +238,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -248,7 +248,7 @@ int main ()
     					gets(debug);
 						printf("Digite o novo estado: ");
     					gets(estado);
-    					printf("AlteraÁ„o concluida com sucesso!\n");
+    					printf("Altera√ß√£o concluida com sucesso!\n");
     				
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
@@ -257,7 +257,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -267,7 +267,7 @@ int main ()
     					gets(debug);
 						printf("Digite o novo telefone: ");
     					gets(telefone);
-    					printf("AlteraÁ„o concluida com sucesso!\n");
+    					printf("Altera√ß√£o concluida com sucesso!\n");
     				
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
@@ -276,7 +276,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -286,7 +286,7 @@ int main ()
     					gets(debug);
 						printf("Digite o novo e-mail: ");
     					gets(email);
-   		 				printf("AlteraÁ„o concluida com sucesso!\n");
+   		 				printf("Altera√ß√£o concluida com sucesso!\n");
     				
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
@@ -295,13 +295,13 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
 						break;
     				default:
-    					printf("OpÁ„o inv·lida! Digite um n˙mero de 1 a 9.");
+    					printf("Op√ß√£o inv√°lida! Digite um n√∫mero de 1 a 9.");
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
 						printf ("|  2- Consultar                  |\n");
@@ -309,7 +309,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");	
@@ -317,7 +317,7 @@ int main ()
 			}
 			else
 			{
-				printf("CÛdigo de cliente inv·lido!");
+				printf("C√≥digo de cliente inv√°lido!");
 				printf ("\n\n*-----Selecione o que deseja-----*\n");
 				printf ("|  1- Cadastrar                  |\n");
 				printf ("|  2- Consultar                  |\n");
@@ -325,7 +325,7 @@ int main ()
 				printf ("|  4- Excluir                    |\n");
 				printf ("|  5- Sair                       |\n");
 				printf ("*--------------------------------*\n\n");
-				printf ("OpÁ„o: ");
+				printf ("Op√ß√£o: ");
 				scanf("%d", &terminar);
 				op = terminar;
 				system("cls");
@@ -334,23 +334,23 @@ int main ()
     	case 4:
     		printf("");
     		gets(debug);
-			printf("Digite o cÛdigo do cliente a ser feita as exclusıes: ");
+			printf("Digite o c√≥digo do cliente a ser feita as exclus√µes: ");
     		gets(codigoCAE);
     		
     		if (strncmp (codigo,codigoCAE,20) == 0)
 			{
 				printf("*-------O que deseja excluir-------*\n");
-    			printf("|  1- CÛdigo do cliente            |\n");
+    			printf("|  1- C√≥digo do cliente            |\n");
     			printf("|  2- Nome                         |\n");
     			printf("|  3- CEP                          |\n");
-    			printf("|  4- EndereÁo                     |\n");
+    			printf("|  4- Endere√ßo                     |\n");
     			printf("|  5- Bairro                       |\n");
     			printf("|  6- Cidade                       |\n");
     			printf("|  7- Estado                       |\n");
     			printf("|  8- Telefone                     |\n");
     			printf("|  9- E-mail                       |\n");
     			printf("*-------====================-------*\n ");
-    			printf("\nOpÁ„o: ");
+    			printf("\nOp√ß√£o: ");
 				scanf("%d", &exc);
     		
     			switch (exc)
@@ -358,7 +358,7 @@ int main ()
     				case 1:
     					printf("");
     					gets(debug);
-						printf("Digite 0 para confirmar a exclus„o: ");
+						printf("Digite 0 para confirmar a exclus√£o: ");
     					gets(codigo);
 						printf("Item excluido com sucesso!\n");
     					
@@ -369,7 +369,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -377,7 +377,7 @@ int main ()
    					case 2:
    						printf("");
     					gets(debug);
-						printf("Digite 0 para confirmar a exclus„o: ");
+						printf("Digite 0 para confirmar a exclus√£o: ");
     					gets(nome);
 						printf("Item excluido com sucesso!\n");
     					
@@ -388,7 +388,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -396,7 +396,7 @@ int main ()
    					case 3:
    						printf("");
     					gets(debug);
-						printf("Digite 0 para confirmar a exclus„o: ");
+						printf("Digite 0 para confirmar a exclus√£o: ");
     					gets(CEP);
 						printf("Item excluido com sucesso!\n");
     					
@@ -407,7 +407,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -415,7 +415,7 @@ int main ()
    					case 4:
    						printf("");
     					gets(debug);
-						printf("Digite 0 para confirmar a exclus„o: ");
+						printf("Digite 0 para confirmar a exclus√£o: ");
     					gets(endereco);
 						printf("Item excluido com sucesso!\n");
     				
@@ -426,7 +426,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -434,7 +434,7 @@ int main ()
    					case 5:
    						printf("");
   	  					gets(debug);
-						printf("Digite 0 para confirmar a exclus„o: ");
+						printf("Digite 0 para confirmar a exclus√£o: ");
     					gets(bairro);
 						printf("Item excluido com sucesso!\n");
     				
@@ -445,7 +445,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -453,7 +453,7 @@ int main ()
 	    			case 6:
    	 					printf("");
     					gets(debug);
-						printf("Digite 0 para confirmar a exclus„o: ");
+						printf("Digite 0 para confirmar a exclus√£o: ");
     					gets(cidade);
 						printf("Item excluido com sucesso!\n");
     					
@@ -464,7 +464,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -472,7 +472,7 @@ int main ()
    		 			case 7:
     					printf("");
     					gets(debug);
-						printf("Digite 0 para confirmar a exclus„o: ");
+						printf("Digite 0 para confirmar a exclus√£o: ");
 	    				gets(estado);
 						printf("Item excluido com sucesso!\n");
     				
@@ -483,7 +483,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -491,7 +491,7 @@ int main ()
     				case 8:
     					printf("");
     					gets(debug);
-						printf("Digite 0 para confirmar a exclus„o: ");
+						printf("Digite 0 para confirmar a exclus√£o: ");
     					gets(telefone);
 						printf("Item excluido com sucesso!\n");
     				
@@ -502,7 +502,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
@@ -510,7 +510,7 @@ int main ()
     				case 9:
     					printf("");
     					gets(debug);
-						printf("Digite 0 para confirmar a exclus„o: ");
+						printf("Digite 0 para confirmar a exclus√£o: ");
     					gets(email);
 						printf("Item excluido com sucesso!\n");
     					
@@ -521,13 +521,13 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");
 						break;
     				default:
-    					printf("OpÁ„o inv·lida! Digite um n˙mero de 1 a 9.");
+    					printf("Op√ß√£o inv√°lida! Digite um n√∫mero de 1 a 9.");
 						printf ("\n\n*-----Selecione o que deseja-----*\n");
 						printf ("|  1- Cadastrar                  |\n");
 						printf ("|  2- Consultar                  |\n");
@@ -535,7 +535,7 @@ int main ()
 						printf ("|  4- Excluir                    |\n");
 						printf ("|  5- Sair                       |\n");
 						printf ("*--------------------------------*\n\n");
-						printf ("OpÁ„o: ");
+						printf ("Op√ß√£o: ");
 						scanf("%d", &terminar);
 						op = terminar;
 						system("cls");	
@@ -543,7 +543,7 @@ int main ()
 			}
 			else
 			{
-				printf("CÛdigo de cliente inv·lido!");
+				printf("C√≥digo de cliente inv√°lido!");
 				printf ("\n\n*-----Selecione o que deseja-----*\n");
 				printf ("|  1- Cadastrar                  |\n");
 				printf ("|  2- Consultar                  |\n");
@@ -551,14 +551,14 @@ int main ()
 				printf ("|  4- Excluir                    |\n");
 				printf ("|  5- Sair                       |\n");
 				printf ("*--------------------------------*\n\n");
-				printf ("OpÁ„o: ");
+				printf ("Op√ß√£o: ");
 				scanf("%d", &terminar);
 				op = terminar;
 				system("cls");
 			}
     		break;
     	default:
-    		printf("OpÁ„o inv·lida! Digite um n˙mero de 1 a 5.");	
+    		printf("Op√ß√£o inv√°lida! Digite um n√∫mero de 1 a 5.");	
 			printf ("\n\n*-----Selecione o que deseja-----*\n");
 			printf ("|  1- Cadastrar                  |\n");
 			printf ("|  2- Consultar                  |\n");
@@ -566,7 +566,7 @@ int main ()
 			printf ("|  4- Excluir                    |\n");
 			printf ("|  5- Sair                       |\n");
 			printf ("*--------------------------------*\n\n");
-			printf ("OpÁ„o: ");
+			printf ("Op√ß√£o: ");
 			scanf("%d", &terminar);
 			op = terminar;
 			system("cls");
