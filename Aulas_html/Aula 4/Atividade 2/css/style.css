@@ -1,0 +1,61 @@
+form{
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 10%;
+    padding: 10px 10px 30px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 3px;
+}
+#n1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#n2{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+button{
+    width: 408px;
+    margin-top: 8px;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    font-weight: 900;
+}
+button:hover{
+    background-color: rgb(48, 47, 47);
+    color: rgb(231, 231, 231);
+    border-color: white;
+}
+button:active{
+    background-color: rgb(99, 99, 99);
+}
+select{
+    width: 408px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(37, 37, 37);
+}
+#calculadora img{
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+h1{
+    margin-top: 0px;
+}
+#calculadora div{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}

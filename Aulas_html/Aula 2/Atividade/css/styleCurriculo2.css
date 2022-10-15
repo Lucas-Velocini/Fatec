@@ -1,0 +1,78 @@
+body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: rgb(214, 214, 214);
+}
+.perfil{
+    width: 120px;
+}
+ul{
+    display: inline-block;
+    width: 70%;
+}
+h1{
+    font-size: 35px;
+    color: #000000;
+    display: inline-block;
+    width: 75%;
+    margin-left: 7px;
+}
+h3{
+    font-size: 20px;
+    color: #2c2c2c;
+    font-weight: bold;
+    margin: 0;
+}
+h4{
+    font-size: 25px;
+    color: #2c2c2c;
+    margin: 10px 5px;
+}
+h5{
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 4px;
+}
+h6{
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+a{
+    color: rgb(7, 135, 158);
+}
+.logos{
+    width: 20px;
+    margin-left: 50px;
+}
+button{
+    color: aliceblue;
+    background-color: rgb(73, 113, 173);
+    height: 30px;
+    width: 200px;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: 0;
+}
+button:hover{
+    color: aliceblue;
+    background-color: rgb(30, 51, 83);
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    margin-left: 30px;
+}
+button:active{
+    color: aliceblue;
+    background-color: rgb(121, 156, 207);
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    margin-left: 30px;
+}

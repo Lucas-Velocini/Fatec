@@ -1,0 +1,73 @@
+html, body{
+    height: 100%;
+}
+body{
+    background-color: rgb(153, 181, 194);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /*fr = fração da tela*/
+    grid-template-rows: 90px auto 60px;
+    grid-template-areas: 
+    "topo topo topo"
+    "menu conteudo propaganda"
+    "rodape rodape rodape";
+}
+h1{
+    margin-top: 0;
+    margin-left: 15px;
+}
+h2{
+    margin-top: 2px;
+    color: rgb(43, 43, 43);
+}
+h3{
+    margin-top: 4px;
+}
+h4{
+    color: rgb(102, 102, 102);
+}
+h5{
+    margin-bottom: 2px;
+    margin-top: 4px;
+}
+.topo{
+    background-color: rgba(92, 92, 92, 0.801);
+    grid-area: topo;
+    color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: space-between; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+    border-bottom: 3px solid rgb(49, 49, 49);
+}
+.propaganda img{
+    height: 90px;
+}
+.menu{
+    background-color: rgb(218, 218, 218);
+    grid-area: menu;
+    color: rgb(77, 77, 77);
+    padding-left: 8px;
+    border-right: 2px solid rgb(49, 49, 49);
+}
+.conteudo{
+    background-color: rgb(218, 218, 218);
+    grid-area: conteudo;
+    color: rgb(77, 77, 77);
+    text-align: center;
+}
+.propaganda{
+    background-color: rgb(218, 218, 218);
+    grid-area: propaganda;
+    color: rgb(77, 77, 77);
+    border-left: 2px solid rgb(49, 49, 49);
+    padding-left: 8px;
+}
+.rodape{
+    border-top: 2px solid rgb(49, 49, 49);
+    background-color: rgba(92, 92, 92, 0.801);
+    grid-area: rodape;
+    text-align: center;
+    color: rgb(39, 39, 39);
+}

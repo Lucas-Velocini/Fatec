@@ -1,0 +1,33 @@
+button{
+    margin-bottom: 20px;
+}
+.topo{
+    font-weight: bold;
+    font-size: 15px;
+    height: 25px;
+    border-bottom: 3px solid black;
+    background-color: rgb(235, 235, 235);
+    min-width: 250px;
+}
+#btnAdd{
+    width: 300px;
+    height: 34px;
+    margin: 10px 0 30px 0;
+    border-radius: 17px;
+    font-weight: 900;
+}
+#btnAdd:hover{
+    cursor: pointer;
+    background-color: white;
+    border-color: rgb(131, 131, 131);
+    color: rgb(131, 131, 131);
+}
+#btnAdd:active{
+    background-color: rgb(202, 202, 202);
+    border-color: rgb(131, 131, 131);
+    color: rgb(66, 66, 66);
+}
+.novo{
+    min-width: 250px;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,68 @@
+.box
+{
+    padding: 15px;
+    width: 200px;
+    margin: 5px;
+}
+.azul
+{
+    color: blue;
+}
+.roxo
+{
+    color:blueviolet;
+}
+.noticias
+{
+    background-color: rgb(196, 196, 196);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    height: 400px;
+}
+.tabela, .tabela td, .box
+{
+    border: 2px solid #333;
+}
+
+.tabela
+{
+    width: 50%;
+    /* margin: top right bottom left; */
+    /* margin: top-bottom right-left */
+    /* margin: top-bottom-right-left; */
+    border-collapse: collapse; /* configurar espaço entre as tds */
+    margin: 20px auto;
+}
+
+.tabela td{
+    background-color: #CCC;
+    padding: 5px;
+    width: 60px;
+}
+
+.tabela td a
+{
+    color: rgb(42, 76, 168);
+}
+.center
+{
+    text-align: center;
+}
+.logo
+{
+    /* largura */
+    width: 60px;
+    /* altura */
+    height: 60px;
+    margin-top: 6px;
+}
+.box .logo
+{
+    margin-bottom: 20px;
+}
